@@ -10,7 +10,22 @@ no final
 */
 
 
-let formula = window.document.getElementById("quiz")
-let nome = window.document.getElementById("nome")
-let idade = window.document.getElementById("idade")
-let lipr = window.document.getElementById("lang")
+let button = document.querySelector("button")
+button.onclick = function () {
+
+    let nome = prompt("Qual seu nome?")
+    let idade = prompt("Qual sua idade?")
+    let lipr = prompt("Qual linguagem esta estudando?")
+    alert("Olá, " +nome+"! Você tem " +idade+ " anos. E esta aprendendo " +lipr+"!")
+    let contin = prompt(nome + ", você pretende aprender outra linguagem? (DIGITE [1] PARA SIM E [2] PARA NÃO) ")
+    
+    if (contin == 1) {
+        alert("Certo! se aprofunde em " + lipr)
+    } if(contin == 2) {
+        prompt("E qual linguagem esta avistando?")
+    }
+        
+    
+}
+
+
