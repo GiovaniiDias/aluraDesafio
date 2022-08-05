@@ -84,4 +84,3 @@ while (msg === "ok"){
     alert(`${novaTecnologia} é realmente uma tecnologia muito legal!`)
     msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
 }
-LÇGKHNIKKNKGI, K, K KKFJGJGJR~JMLKOHK, FK, KHOKHKHKHJTH.ÇLKHLLHK
