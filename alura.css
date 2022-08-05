@@ -1,16 +1,29 @@
 html, body{
-    background-color:#1E90FF ;
-   width: 100%vh;
+    
+    background-color:#3a3f45 ;
+   height: 100vh;
+   perspective: 800px;
+   overflow: hidden;
+   display: grid;
+   place-items: center;
+
+
+
 }
 h1 {
     color: rgb(221, 47, 8);
     text-align: center;
 }
-
-#card {
+p, h4 {
+    margin-bottom: 70px;
+    
+    color: #ff512f;
+    position:absolute;
     
 
 }
+
+
 
 #comparar {
     width: 200px;
@@ -21,5 +34,99 @@ h1 {
     width: 200px;
     color: aliceblue;
     background-color: black;
+}
+
+#Hroad {
+    text-align: center;
+   
+    margin: 10px;
+    background-color: rgb(87, 101, 114);
+    border-radius: 10px;
+}
+
+#Mroad {
+    position:relative;
+    transform-style: preserve-3d;
+    align-items:flex-end;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(6, 26, 46);
+    border: 15px solid;
+
+    border-image: linear-gradient(#ff512f, #dd2476, #1c64ff) 1 ;
+    animation: rotate 2.5s ease-in infinite;
+    
+}
+@keyframes rotate {
+    50%{
+    border-image:
+    linear-gradient (
+        360deg,
+        #ff512f, 
+        #dd2476, 
+        #1c64ff) 1;
+
+    }
+}
+
+#bot{
+    font-style:italic;
+    font-size: medium;
+    margin: 20px ;
+    border-radius: 10px;
+    border: #141b3dd1;
+    border-style:double;
+    text-shadow: 1px 1px 1px rgba(36, 34, 34, 0.571);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#bot:hover {
+    background-color: rgb(97, 103, 221);
+}
+
+#bot:hover {
+    background-color: rgb(97, 103, 221);
+}
+#bot:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#bot:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.botaoA, .botaoB, .botaoC {
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(6, 26, 46);
+    border: 5px solid;
+
+    border-image: linear-gradient(#ff512f, #dd2476, #1c64ff) 1 ;
+    animation: rotate 2.5s ease-in infinite;
+    
+}
+@keyframes rotate {
+    50%{
+    border-image:
+    linear-gradient (
+        360deg,
+        #ff512f, 
+        #dd2476, 
+        #1c64ff) 1;
+
+    }
+}
+
+#Froad{
+
+    text-align: center;
+  
 }
 
