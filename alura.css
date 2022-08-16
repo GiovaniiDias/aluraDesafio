@@ -34,8 +34,19 @@ p, h4 {
 
 #quiz {
     width: 200px;
+    color: rgb(73, 118, 156);
+    
+    
+}
+#btn{
+    border: #3a3f45;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background: #2b3449;
     color: aliceblue;
-    background-color: black;
+
 }
 
 #Hroad {
